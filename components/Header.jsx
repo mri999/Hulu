@@ -27,7 +27,7 @@ function Header() {
         {headerItems.map((item) => (
           // eslint-disable-next-line react/jsx-key
           <HeaderItem title={item.title} Icon={item.icon} />
-        ))}{' '}
+        ))}
       </div>
       <Image
         className="object-contain"
